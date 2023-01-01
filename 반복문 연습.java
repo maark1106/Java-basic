@@ -21,9 +21,10 @@ public class Main {
 			if(s.length() == 2) {
 				x = s.charAt(0) - '0';
 				y = s.charAt(1) - '0';
-			}
-			if(x == 0 && y == 0)
+				
+				if(x == 0 && y == 0)
 				break;
+			}
 			
 			if(s.length() != 2 || x > N || y > N || x <= 0  || y <= 0){
 				System.out.println("두 자리를 입력하시오");
